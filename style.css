@@ -29,7 +29,7 @@ body {
     color: #535353;
     transition: all 0.1s ease-in-out;
     text-align: center;
-    
+
 }
 
 .number:focus {
@@ -70,4 +70,5 @@ body {
     border-radius: 10px;
     box-shadow: 0 0 10px #0000001a;
     margin-bottom: 20px;
+    text-align: center;
 }
