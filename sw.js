@@ -54,7 +54,7 @@ self.addEventListener('fetch', function (event) {
                         .then(cache => { cache.put(event.request, resClone); });
                     return res;
                 })
-                .catch(err => caches.match(event.request).then(res => res), err => console.log("a7a"))
+                .catch(err => caches.match(event.request).then(res => res), err => console.log("Error: ", err))
         );
     }
 }
